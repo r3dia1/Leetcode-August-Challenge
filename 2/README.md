@@ -29,3 +29,5 @@
         }
     }
 ```
+
+> ## Time complexity: O(N^2)
