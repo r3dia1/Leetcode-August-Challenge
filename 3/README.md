@@ -29,4 +29,5 @@
         return;
 ```
 
-> ## Time complexity: worst case = O(4^N) (e.g. digits = "9999" or "7777" 每個字母需要遍歷4種可能)
+> ## Time complexity: worst case = O(4^N)
+> e.g. digits = "9999" or "7777" 每個字母需要遍歷4種可能
