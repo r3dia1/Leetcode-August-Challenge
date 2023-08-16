@@ -2,7 +2,7 @@
 # 239. Sliding Window Maximum
 > Solution: pair & priority queue
 > 題意分析: 對給定的數列做sliding window，並且在每次平移中紀錄window內的最大數值 (window寬度為k)
-> ![image]()
+> ![image](https://github.com/r3dia1/Leetcode-August-Challenge/blob/main/16/example.png)
 
 > Method: 
 >> 1. 宣告一個 priority_queue<pair<int, int>> pq 用來紀錄當前window內的數字以及其index，並數字由大到小排序。  
@@ -20,4 +20,4 @@
 > ## Time complexity:
 >> 1. 建立初始window pq花費: O(k)  
 >> 2. push & pop number in for loop : O((N-k) * logN)  
->> 所以**Total cost = O(N * logN) ** 
+>> 3. 所以**Total cost = O(N * logN)** 
