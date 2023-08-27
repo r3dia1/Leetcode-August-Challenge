@@ -26,9 +26,11 @@
         // first: 往後跳jump_scale - 1長度
         if(jump_scale > 1 && dfs(stones, pos + jump_scale - 1, jump_scale - 1))
             return true;
+
         // second: 往後跳jump_scale長度
         if(jump_scale > 0 && dfs(stones, pos + jump_scale, jump_scale))
             return true;
+
         // third: 往後跳jump_scale + 1長度
         if(dfs(stones, pos + jump_scale + 1, jump_scale + 1))
             return true;
