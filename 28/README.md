@@ -8,8 +8,9 @@
 >> 3. 其他operation與queue的push()無異
 
 > ## Time complexity:
-| :-----: | :-----: |
-| push | O(1) |
-| pop | O(1) |
-| top | O(1) |
-| empty | O(1) |
+> | operation | costs |
+> | :---: | :---: |
+> | push | O(1) |
+> | pop | O(1) |
+> | top | O(1) |
+> | empty | O(1) |
